@@ -3,11 +3,7 @@
 int main()
 {
 
-  double p;
-  double q;
-  double c;
-
-  double dollars;
+  double pesos, reais, soles, dollars;
 
   std::cout << "🇲🇽 Enter number of Pesos: ";
   std::cin >> p;

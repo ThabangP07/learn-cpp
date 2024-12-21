@@ -20,7 +20,11 @@ int main()
   1 Soles = 0.27 usd
   */
 
-  dollars = 0.049 * p + 0.1305 * q + 0.1144 * c;
+  double pesos_to_dollar = 0.050;
+  double reais_to_dollar = 0.16;
+  double soles_to_dollar = 0.27;
+
+  dollars = (pesos_to_dollar * pesos) + (reais_to_dollar * reais) + (soles_to_dollar * soles);
 
   std::cout << "Total USD = $" << dollars << "\n";
 
